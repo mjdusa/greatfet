@@ -3,8 +3,6 @@
 # This file is part of GreatFET
 #
 
-from __future__ import print_function
-
 import os
 import sys
 import errno

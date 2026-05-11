@@ -2,8 +2,6 @@
 #
 # This file is part of GreatFET
 
-from __future__ import print_function
-
 import sys
 import time
 import argparse
@@ -62,4 +60,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-

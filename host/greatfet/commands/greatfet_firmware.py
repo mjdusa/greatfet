@@ -6,8 +6,6 @@
     Utility for flashing firmware on GreatFET boards.
 """
 
-from __future__ import print_function
-
 import os
 import sys
 import errno

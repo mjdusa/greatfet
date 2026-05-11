@@ -5,8 +5,6 @@
     Utilities that help in writing simple scripts for GreatFET.
 """
 
-from __future__ import print_function
-
 import sys
 import ast
 import time
