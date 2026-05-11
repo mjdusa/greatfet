@@ -1,6 +1,4 @@
-from __future__ import print_function
 # Alias objects to make them easier to import.
-
 from .greatfet import GreatFET
 from .greatfet import GreatFETSingleton as GFSingleton
 from .greatfet import GreatFETBoard
@@ -58,4 +56,3 @@ def find_greatfet_asset(filename):
         return asset_path
     else:
         return None
-

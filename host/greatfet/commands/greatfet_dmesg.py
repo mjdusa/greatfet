@@ -2,9 +2,6 @@
 #
 # This file is part of GreatFET
 
-from __future__ import print_function
-from __future__ import absolute_import
-
 import argparse
 import errno
 import sys
@@ -41,4 +38,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-

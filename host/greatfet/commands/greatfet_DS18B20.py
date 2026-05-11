@@ -6,8 +6,6 @@
 # FIXME: should this be integreted into greatfet_sensor?
 #
 
-from __future__ import print_function
-
 import struct
 import time
 
@@ -16,7 +14,7 @@ from greatfet.protocol import vendor_requests
 
 def main():
     from greatfet.utils import GreatFETArgumentParser
-   
+
     # Set up a simple argument parser.
     parser = GreatFETArgumentParser(description="Periodically print temperature from DS18B20 sensor")
     parser.add_argument('-S', dest='s20', action='store_true', help='DS18S20')

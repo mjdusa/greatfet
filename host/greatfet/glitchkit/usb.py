@@ -2,8 +2,6 @@
 # This file is part of GreatFET
 #
 
-from __future__ import absolute_import
-
 import usb
 import time
 import codecs
@@ -125,4 +123,3 @@ class GlitchKitUSB(GlitchKitModule):
 
         # ... and issue the request.
         return self.api.control_in(setup_packet, timeout=timeout * 1024)
-
