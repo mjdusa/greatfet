@@ -18,6 +18,13 @@ After upgrading the host tools, update your GreatFET firmware to the latest rele
 
 Happy hacking!
 
+## [v2026.0.0] - 2026-05-22
+### Fixed
+* Firmware builds fail with GCC 15.2
+### Changed
+* Updated libgreat to [`v2026.0.0`](https://github.com/greatscottgadgets/libgreat/compare/v2024.0.5...v2026.0.0).
+* Removed remaining imports from Python 2 -> 3 migration.
+* Update USB hub support in CI.
 
 ## [v2025.0.0] - 2025-12-05
 ### Fixed
@@ -102,7 +109,8 @@ NOTE: We no longer support Python 2. This release targets Python 3.6+.
  - #344: Facedancer with bMaxPacketSize0 < 32 does not work.
 
 
-[Unreleased]: https://github.com/greatscottgadgets/greatfet/compare/v2025.0.0...HEAD
+[Unreleased]: https://github.com/greatscottgadgets/greatfet/compare/v2026.0.0...HEAD
+[v2026.0.0]: https://github.com/greatscottgadgets/greatfet/compare/v2025.0.0...v2026.0.0
 [v2025.0.0]: https://github.com/greatscottgadgets/greatfet/compare/v2024.0.4...v2025.0.0
 [v2024.0.4]: https://github.com/greatscottgadgets/greatfet/compare/v2024.0.3...v2024.0.4
 [v2024.0.3]: https://github.com/greatscottgadgets/greatfet/compare/v2024.0.2...v2024.0.3
